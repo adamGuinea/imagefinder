@@ -1,4 +1,6 @@
 import React from "react";
+import Pupper from "../img/pupper.jpg";
+import House1 from "../img/house-1.jpeg";
 
 const App = () => {
   return (
@@ -70,8 +72,21 @@ const App = () => {
           </p>
         </div>
       </section>
-      <div className='story__pictures'>Pictures</div>
-      <div className='story__content'>Content</div>
+      <div className='story__pictures'>
+        <img src={Pupper} alt='dog' className='story__img--1' />
+        <img src={House1} alt='first house' className='story__img--2' />
+      </div>
+      <div className='story__content'>
+        <h3 className='heading-3 mb-sm'>Happy Customers</h3>
+        <h2 className='heading-2 heading-2--dark mb-md'>
+          &ldquo;The best decision of our lives&rdquo;
+        </h2>
+        <p className='story__text'>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non dolorum
+          a soluta, eaque numquam iusto quasi molestiae minus modi ex.
+        </p>
+        <button className='btn'>Find your own way</button>
+      </div>
       <section className='homes'>homes</section>
       <section className='gallery'>gallery</section>
       <footer className='footer'>footer</footer>
