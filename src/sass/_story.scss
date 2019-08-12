@@ -1,8 +1,12 @@
 .story {
   &__pictures {
     background-color: $color-primary;
-    background-image: linear-gradient(rgba($color-primary, 0.5)),
-      linear-gradient(rgba($color-primary, 0.5)), url(../img/drone-shot.jpg);
+    background-image: linear-gradient(
+        rgba($color-primary, 0.5),
+        rgba($color-primary, 0.5)
+      ),
+      url(../img/drone-shot.jpg);
+    background-size: cover;
     grid-column: full-start / col-end 4;
 
     display: grid;

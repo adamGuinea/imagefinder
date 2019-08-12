@@ -1,6 +1,11 @@
 import React from "react";
 import Pupper from "../img/pupper.jpg";
 import House1 from "../img/house-1.jpeg";
+import House2 from "../img/house-2.jpeg";
+import House3 from "../img/house-3.jpeg";
+import House4 from "../img/house-4.jpeg";
+import House5 from "../img/house-5.jpeg";
+import House6 from "../img/house-6.jpeg";
 
 const App = () => {
   return (
@@ -85,9 +90,214 @@ const App = () => {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non dolorum
           a soluta, eaque numquam iusto quasi molestiae minus modi ex.
         </p>
-        <button className='btn'>Find your own way</button>
+        <button className='btn '>Find your own way</button>
       </div>
-      <section className='homes'>homes</section>
+      <section className='homes'>
+        <div className='home'>
+          <img src={House2} alt='house 2' className='home__img' />
+          <svg className='home__like'>
+            <use xlinkHref='/sprite.svg#icon-heart-full' />
+          </svg>
+          <h5 className='home__name'>Modern Glass Villa</h5>
+          <div className='home__location'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-map-pin' />
+            </svg>
+            <p>Noosa</p>
+          </div>
+          <div className='home__rooms'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-profile-male' />
+            </svg>
+            <p>5 rooms</p>
+          </div>
+          <div className='home__area'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-expand' />
+            </svg>
+            <p>
+              325m<sup>2</sup>
+            </p>
+          </div>
+          <div className='home__price'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-key' />
+            </svg>
+            <p>$955,000</p>
+          </div>
+          <button className='btn home__btn'>Call realtor</button>
+        </div>
+        <div className='home'>
+          <img src={House3} alt='house 2' className='home__img' />
+          <svg className='home__like'>
+            <use xlinkHref='/sprite.svg#icon-heart-full' />
+          </svg>
+          <h5 className='home__name'>Beautiful Family House</h5>
+          <div className='home__location'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-map-pin' />
+            </svg>
+            <p>Newcastle</p>
+          </div>
+          <div className='home__rooms'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-profile-male' />
+            </svg>
+            <p>5 rooms</p>
+          </div>
+          <div className='home__area'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-expand' />
+            </svg>
+            <p>
+              450<sup>2</sup>
+            </p>
+          </div>
+          <div className='home__price'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-key' />
+            </svg>
+            <p>$1,255,000</p>
+          </div>
+          <button className='btn home__btn'>Call realtor</button>
+        </div>
+        <div className='home'>
+          <img src={House4} alt='house 2' className='home__img' />
+          <svg className='home__like'>
+            <use xlinkHref='/sprite.svg#icon-heart-full' />
+          </svg>
+          <h5 className='home__name'>Cozy Country Cabin</h5>
+          <div className='home__location'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-map-pin' />
+            </svg>
+            <p>Glasshouse Mountains</p>
+          </div>
+          <div className='home__rooms'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-profile-male' />
+            </svg>
+            <p>4 rooms</p>
+          </div>
+          <div className='home__area'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-expand' />
+            </svg>
+            <p>
+              275<sup>2</sup>
+            </p>
+          </div>
+          <div className='home__price'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-key' />
+            </svg>
+            <p>$855,000</p>
+          </div>
+          <button className='btn home__btn'>Call realtor</button>
+        </div>
+        <div className='home'>
+          <img src={House5} alt='house 2' className='home__img' />
+          <svg className='home__like'>
+            <use xlinkHref='/sprite.svg#icon-heart-full' />
+          </svg>
+          <h5 className='home__name'>Large Rustic Villa</h5>
+          <div className='home__location'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-map-pin' />
+            </svg>
+            <p>Toorak</p>
+          </div>
+          <div className='home__rooms'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-profile-male' />
+            </svg>
+            <p>5 rooms</p>
+          </div>
+          <div className='home__area'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-expand' />
+            </svg>
+            <p>
+              416<sup>2</sup>
+            </p>
+          </div>
+          <div className='home__price'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-key' />
+            </svg>
+            <p>$2,300,000</p>
+          </div>
+          <button className='btn home__btn'>Call realtor</button>
+        </div>
+        <div className='home'>
+          <img src={House6} alt='house 2' className='home__img' />
+          <svg className='home__like'>
+            <use xlinkHref='/sprite.svg#icon-heart-full' />
+          </svg>
+          <h5 className='home__name'>Palatial Mountain Retreat</h5>
+          <div className='home__location'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-map-pin' />
+            </svg>
+            <p>Thredbo</p>
+          </div>
+          <div className='home__rooms'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-profile-male' />
+            </svg>
+            <p>9 rooms</p>
+          </div>
+          <div className='home__area'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-expand' />
+            </svg>
+            <p>
+              640<sup>2</sup>
+            </p>
+          </div>
+          <div className='home__price'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-key' />
+            </svg>
+            <p>$2,950,000</p>
+          </div>
+          <button className='btn home__btn'>Call realtor</button>
+        </div>
+        <div className='home'>
+          <img src={House1} alt='house 2' className='home__img' />
+          <svg className='home__like'>
+            <use xlinkHref='/sprite.svg#icon-heart-full' />
+          </svg>
+          <h5 className='home__name'>Modern Family Apartment</h5>
+          <div className='home__location'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-map-pin' />
+            </svg>
+            <p>Brisbane</p>
+          </div>
+          <div className='home__rooms'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-profile-male' />
+            </svg>
+            <p>3 rooms</p>
+          </div>
+          <div className='home__area'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-expand' />
+            </svg>
+            <p>
+              280<sup>2</sup>
+            </p>
+          </div>
+          <div className='home__price'>
+            <svg>
+              <use xlinkHref='/sprite.svg#icon-key' />
+            </svg>
+            <p>$700,000</p>
+          </div>
+          <button className='btn home__btn'>Call realtor</button>
+        </div>
+      </section>
       <section className='gallery'>gallery</section>
       <footer className='footer'>footer</footer>
     </div>
