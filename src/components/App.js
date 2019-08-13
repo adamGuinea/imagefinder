@@ -94,7 +94,7 @@ const App = () => {
       </div>
       <section className='homes'>
         <div className='home'>
-          <img src={House2} alt='house 2' className='home__img' />
+          <img src={House2} alt='glass villa' className='home__img' />
           <svg className='home__like'>
             <use xlinkHref='/sprite.svg#icon-heart-full' />
           </svg>
@@ -128,7 +128,7 @@ const App = () => {
           <button className='btn home__btn'>Call realtor</button>
         </div>
         <div className='home'>
-          <img src={House3} alt='house 2' className='home__img' />
+          <img src={House3} alt='family house' className='home__img' />
           <svg className='home__like'>
             <use xlinkHref='/sprite.svg#icon-heart-full' />
           </svg>
@@ -162,7 +162,7 @@ const App = () => {
           <button className='btn home__btn'>Call realtor</button>
         </div>
         <div className='home'>
-          <img src={House4} alt='house 2' className='home__img' />
+          <img src={House4} alt='country cabin' className='home__img' />
           <svg className='home__like'>
             <use xlinkHref='/sprite.svg#icon-heart-full' />
           </svg>
@@ -196,7 +196,7 @@ const App = () => {
           <button className='btn home__btn'>Call realtor</button>
         </div>
         <div className='home'>
-          <img src={House5} alt='house 2' className='home__img' />
+          <img src={House5} alt='rustic villa' className='home__img' />
           <svg className='home__like'>
             <use xlinkHref='/sprite.svg#icon-heart-full' />
           </svg>
@@ -230,7 +230,7 @@ const App = () => {
           <button className='btn home__btn'>Call realtor</button>
         </div>
         <div className='home'>
-          <img src={House6} alt='house 2' className='home__img' />
+          <img src={House6} alt='palatial retreat' className='home__img' />
           <svg className='home__like'>
             <use xlinkHref='/sprite.svg#icon-heart-full' />
           </svg>
@@ -264,7 +264,7 @@ const App = () => {
           <button className='btn home__btn'>Call realtor</button>
         </div>
         <div className='home'>
-          <img src={House1} alt='house 2' className='home__img' />
+          <img src={House1} alt='family apartment' className='home__img' />
           <svg className='home__like'>
             <use xlinkHref='/sprite.svg#icon-heart-full' />
           </svg>
@@ -298,7 +298,51 @@ const App = () => {
           <button className='btn home__btn'>Call realtor</button>
         </div>
       </section>
-      <section className='gallery'>gallery</section>
+
+      <section className='gallery'>
+        <figure className='gallery__item gallery__item--1'>
+          <img src={House1} alt='stylish suburban' className='gallery__img' />
+        </figure>
+      <figure className='gallery__item gallery__item--2'>
+        <img src={House2} alt='gallery img 1' className='gallery__img' />
+        </figure>
+        <figure className='gallery__item gallery__item--3'>
+          <img src={House3} alt='gallery img 2' className='gallery__img' />
+        </figure>
+        <figure className='gallery__item gallery__item--4'>
+          <img src={House4} alt='gallery img 3' className='gallery__img' />
+        </figure>
+        <figure className='gallery__item gallery__item--5'>
+          <img src={House5} alt='gallery img 4' className='gallery__img' />
+        </figure>
+        <figure className='gallery__item gallery__item--6'>
+          <img src={House6} alt='gallery img 5' className='gallery__img' />
+        </figure>
+        <figure className='gallery__item gallery__item--7'>
+          <img src={House1} alt='gallery img 6' className='gallery__img' />
+        </figure>
+        <figure className='gallery__item gallery__item--8'>
+          <img src={House2} alt='gallery img 7' className='gallery__img' />
+        </figure>
+        <figure className='gallery__item gallery__item--9'>
+          <img src={House3} alt='gallery img 8' className='gallery__img' />
+        </figure>
+        <figure className='gallery__item gallery__item--10'>
+          <img src={House4} alt='gallery img 9' className='gallery__img' />
+        </figure>
+        <figure className='gallery__item gallery__item--11'>
+          <img src={House5} alt='gallery img 10' className='gallery__img' />
+        </figure>
+        <figure className='gallery__item gallery__item--12'>
+          <img src={House6} alt='gallery img 11' className='gallery__img' />
+        </figure>
+        <figure className='gallery__item gallery__item--13'>
+          <img src={House1} alt='gallery img 12' className='gallery__img' />
+        </figure>
+        <figure className='gallery__item gallery__item--14'>
+          <img src={House2} alt='gallery img 13' className='gallery__img' />
+        </figure>
+      </section>
       <footer className='footer'>footer</footer>
     </div>
   );
