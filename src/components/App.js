@@ -6,13 +6,53 @@ import House3 from "../img/house-3.jpeg";
 import House4 from "../img/house-4.jpeg";
 import House5 from "../img/house-5.jpeg";
 import House6 from "../img/house-6.jpeg";
+import Logo1 from "../img/logo-bbc.png";
+import Logo2 from "../img/logo-bi.png";
+import Logo3 from "../img/logo-forbes.png";
+import Logo4 from "../img/logo-techcrunch.png";
 
 const App = () => {
   return (
     <div className='container'>
-      <div className='sidebar'>sidebar</div>
-      <header className='header'>header</header>
-      <div className='realtors'>top realtors</div>
+      <div className='sidebar'>
+        <button className='nav-btn' />
+      </div>
+      <header className='header'>
+        <img src={House6} alt='rustic villa' className='header__logo' />
+        <h3 className='heading-3'>Your own home:</h3>
+        <h1 className='heading-1'>The ultimate escape</h1>
+        <button className='btn header__btn'>View our properties</button>
+        <div className='header__seenon-text'>Seen on</div>
+        <div className='header__seenon-logos'>
+          <img src={Logo4} alt='bbc' />
+          <img src={Logo3} alt='bi' />
+          <img src={Logo2} alt='forbes' />
+          <img src={Logo1} alt='techcrunch' />
+        </div>
+      </header>
+
+      <div className='realtors'>
+        <h3 className='heading-3'>Top 2 Realtors</h3>
+        <div className='realtors__list'>
+          <img src={Pupper} alt='top-realtor' className='realtors__img' />
+          <div className='realtors__details'>
+            <h4 className='heading-4 heading-3--light'>Humphrey Bogart</h4>
+            <p className='realtors__sold'>195 houses sold</p>
+          </div>
+
+          <img src={Pupper} alt='top-realtor' className='realtors__img' />
+          <div className='realtors__details'>
+            <h4 className='heading-4 heading-3--light'>Susan Cain</h4>
+            <p className='realtors__sold'>218 houses sold</p>
+          </div>
+
+          <img src={Pupper} alt='top-realtor' className='realtors__img' />
+          <div className='realtors__details'>
+            <h4 className='heading-4 heading-3--light'>Marc Antony</h4>
+            <p className='realtors__sold'>180 houses sold</p>
+          </div>
+        </div>
+      </div>
       <section className='features'>
         <div className='feature'>
           <svg className='feature__icon'>
@@ -303,8 +343,8 @@ const App = () => {
         <figure className='gallery__item gallery__item--1'>
           <img src={House1} alt='stylish suburban' className='gallery__img' />
         </figure>
-      <figure className='gallery__item gallery__item--2'>
-        <img src={House2} alt='gallery img 1' className='gallery__img' />
+        <figure className='gallery__item gallery__item--2'>
+          <img src={House2} alt='gallery img 1' className='gallery__img' />
         </figure>
         <figure className='gallery__item gallery__item--3'>
           <img src={House3} alt='gallery img 2' className='gallery__img' />
@@ -343,7 +383,41 @@ const App = () => {
           <img src={House2} alt='gallery img 13' className='gallery__img' />
         </figure>
       </section>
-      <footer className='footer'>footer</footer>
+      <footer className='footer'>
+        <ul className='nav'>
+          <li className='nav__item'>
+            <a href='#' className='nav__link'>
+              Find your dream home
+            </a>
+          </li>
+          <li className='nav__item'>
+            <a href='#' className='nav__link'>
+              Request proposal
+            </a>
+          </li>
+          <li className='nav__item'>
+            <a href='#' className='nav__link'>
+              Download home planner
+            </a>
+          </li>
+          <li className='nav__item'>
+            <a href='#' className='nav__link'>
+              Contact us
+            </a>
+          </li>
+          <li className='nav__item'>
+            <a href='#' className='nav__link'>
+              Submit your property
+            </a>
+          </li>
+          <li className='nav__item'>
+            <a href='#' className='nav__link'>
+              Careers
+            </a>
+          </li>
+        </ul>
+        <p className='copyright'>&copy; Unreal Realty</p>
+      </footer>
     </div>
   );
 };
