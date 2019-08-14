@@ -18,7 +18,7 @@ const App = () => {
         <button className='nav-btn' />
       </div>
       <header className='header'>
-        <img src={House6} alt='rustic villa' className='header__logo' />
+        <div className='header__logo'>Unreal Realty</div>
         <h3 className='heading-3'>Your own home:</h3>
         <h1 className='heading-1'>The ultimate escape</h1>
         <button className='btn header__btn'>View our properties</button>
@@ -32,7 +32,7 @@ const App = () => {
       </header>
 
       <div className='realtors'>
-        <h3 className='heading-3'>Top 2 Realtors</h3>
+        <h3 className='heading-3'>Top 3 Realtors</h3>
         <div className='realtors__list'>
           <img src={Pupper} alt='top-realtor' className='realtors__img' />
           <div className='realtors__details'>
